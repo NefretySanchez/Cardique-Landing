@@ -2160,19 +2160,19 @@ input::-moz-focus-inner {
   width: 50%;
   text-align: center;
   position: absolute;
-  right: 0rem;
+  right: -10rem;
   bottom: 0;
   top: 22%;
 }
 
 .intro-person img {
-  width: 75%;
+  width: 100%;
 }
 
 .intro-person .text-container {
   position: absolute;
-  bottom: 190px;
-  left: 10px;
+  bottom: 27%;
+  left: -10%;
 }
 
 .intro-person .text-container img {
@@ -2195,14 +2195,14 @@ input::-moz-focus-inner {
 
 @media screen and (min-width: 2501px) {
   .intro-person .text-container {
-    bottom: 250px;
-    left: 210px;
+    bottom: 22%;
+    left: 5%;
   }
   .intro-person {
     top: 10%;
   }
   .intro-person img {
-    width: 70%;
+    width: 100%;
   }
 }
 
@@ -2211,42 +2211,41 @@ input::-moz-focus-inner {
     top: 10%;
   }
   .intro-person img {
-    width: 70%;
+    width: 100%;
   }
   .intro-person .text-container {
-    bottom: 210px;
-    left: 120px;
+    bottom: 22%;
+    left: 0px;
   }
 }
 
 @media screen and (max-height: 900px) {
   .intro-person .text-container {
-    bottom: 130px;
-    left: 20px;
+    bottom: 10%;
   }
 }
 
 @media screen and (max-width: 1300px) {
   .intro-person .text-container {
-    bottom: 160px;
-    left: 0px;
+    bottom: 26%;
+    left: -12%;
   }
 }
 
 @media screen and (max-width: 1040px) {
   .intro-person .text-container {
-    bottom: 260px;
-    left: -40px;
+    bottom: 42%;
+    left: -20%;
   }
 }
 
 @media screen and (max-width: 800px) {
   .intro-person {
-    right: -5%;
+    right: -10%;
   }
   .intro-person .text-container {
-    bottom: 362px;
-    left: -70px;
+    bottom: 55%;
+    left: -30%;
   }
   .intro-person .text-container p {
     font-size: 17px;
@@ -2577,7 +2576,6 @@ html.no-csstransitions .intro-content__bottom {
   .grid-overlay {
     left: 50%;
   }
-
 }
 
 @media screen and (max-width: 400px) {
